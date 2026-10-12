@@ -46,8 +46,11 @@ h2{
 }
 p1{
   font-family: "Clarity City", sans-serif;
+  font-size: large;
 }
 
 figcaption{
   font-family: "Clarity City", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
 }
