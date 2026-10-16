@@ -39,7 +39,7 @@ h1{
 }
 
 .topnav a {
-  font-family: "DynaPuff", system-ui;
+  font-family: "Isometra", system-ui;
   font-size:x-large
 }
 
@@ -85,4 +85,12 @@ h3{
 h4{
   font-family: "Isometra", serif;
   color: rgb(87, 10, 126)
+}
+html {
+  scroll-behavior: smooth;
+}
+p{
+  font-family: "Clarity City", sans-serif;
+  font-size: large;
+  color: rgb(206, 200, 210)
 }
