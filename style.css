@@ -33,6 +33,21 @@
    text-decoration: underline;
 
 }
+#social-media a:hover {
+   color: rgb(1, 183, 249);
+   text-decoration: underline;
+
+
+
+}
+
+#contact a:hover {
+   color: rgb(1, 183, 249);
+   text-decoration: underline;
+
+
+
+}
 h1{
     font-family: "Isometra", serif;
     color: rgb(87, 10, 126)
@@ -100,4 +115,10 @@ background-color: hsl(301, 43%, 55%);
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 15px;
+}
+p4{
+  font-family: "Clarity City", sans-serif;
+  font-size: large;
+  color: rgb(206, 200, 210)
+
 }
