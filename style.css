@@ -14,7 +14,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: rgb(87, 10, 126);
+  color: rgb(168, 33, 236);
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
@@ -118,4 +118,28 @@ p4{
   font-size: large;
   color: rgb(206, 200, 210)
 
+}
+#flex-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/*flex-container img {
+  width: 500px;
+  height: 250px;
+
+}
+  */
+ main section[id="merch"]  {
+  background-color: hsl(239, 95%, 67%);
+  border: 4px solid #93006e;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+#merch a:hover{
+  color: rgb(249, 1, 170);
+}
+.merchlinks{
+  color:rgb(0, 255, 17)
 }
