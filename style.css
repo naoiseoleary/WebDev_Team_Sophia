@@ -29,13 +29,13 @@
 
 }
 #social-media {
-   color: rgb(87, 10, 126);
+   color: rgb(58, 4, 84);
    text-decoration: none;
    font-size: large; 
 }
 
 #contact {
-   color: rgb(87, 10, 126);
+   color: rgb(58, 4, 84);
    text-decoration: none;
    font-size: large; 
   }
@@ -54,7 +54,7 @@
 }
 h1{
     font-family: "Isometra", serif;
-    color: rgb(87, 10, 126)
+    color: rgb(58, 4, 84)
 }
 
 .topnav a {
@@ -64,7 +64,7 @@ h1{
 
 h2{
     font-family: "Isometra", serif;
-    color: rgb(87, 10, 126)
+    color: rgb(58, 4, 84)
 }
 p1{
   font-family: "Clarity City", sans-serif;
@@ -99,11 +99,11 @@ main section {
 }
 h3{
   font-family: "Isometra", serif;
-  color: rgb(87, 10, 126)
+  color: rgb(58, 4, 84)
 }
 h4{
   font-family: "Isometra", serif;
-  color: rgb(87, 10, 126)
+  color: rgb(58, 4, 84)
 }
 html {
   scroll-behavior: smooth;
@@ -145,4 +145,22 @@ p4{
 }
 #merch h2 {
   font-size:xx-large
+}
+#borderimg {
+  border: 4px solid #93006e;
+  border-radius: 12px;
+  border-image: url("https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/487561/item/eugoods_00_487561_3x4.jpg")
+}
+
+ html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#news-background {
+  background-image: url("https://media.istockphoto.com/id/1325437484/photo/virtual-studio.jpg?s=1024x1024&w=is&k=20&c=nh_FtSCyMWGJJ7qPa5rlrb_OweG4K1Tn0rLvH5PgceE=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
