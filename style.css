@@ -157,10 +157,43 @@ p4{
   padding: 0;
 }
 
-#news-background {
-  background-image: url("https://media.istockphoto.com/id/1325437484/photo/virtual-studio.jpg?s=1024x1024&w=is&k=20&c=nh_FtSCyMWGJJ7qPa5rlrb_OweG4K1Tn0rLvH5PgceE=");
+.news-background .element {
+  background-color: transparent;
+}
+.news-background {
+  background-color: transparent;
+  background-image: url("breakingnews.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  height: 100vh;
+}
+main section[id="news"] {
+  padding: 10px;
+  background-color: hsl(0, 96%, 22%);
+  border-color:#000000
+}
+
+#news h1,h2 {
+  color: rgb(244, 229, 229);
+  font-weight: bold;
+  font-size:xx-large
+  
+  
+}
+
+#news p {
+  color: rgb(224, 228, 232);
+  font-size:large
+}
+
+#news h2 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.news-textbox {
+  background-color: hsl(0, 96%, 22%);
+  border: none;
+  padding: 0px;
+  margin-top: 110px;
+  margin-right: 310px
 }
