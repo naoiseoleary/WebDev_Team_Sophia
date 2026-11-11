@@ -54,7 +54,7 @@
 }
 h1{
     font-family: "Isometra", serif;
-    color: rgb(58, 4, 84)
+    color: rgb(134, 13, 189)
 }
 
 .topnav a {
@@ -131,7 +131,7 @@ p4{
 }
   */
  main section[id="merch"]  {
-  background-color: hsl(239, 95%, 67%);
+  background-color: hsl(240, 9%, 2%);
   border: 4px solid #93006e;
   border-radius: 12px;
   padding: 15px;
