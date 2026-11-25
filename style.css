@@ -208,3 +208,9 @@ main section[id="news"] {
   .topnav {grid-area: 2 / span 1;}
   .flex-container {grid-area: 2 / span 4;}
 }
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  min-height: 300px;      
+}
