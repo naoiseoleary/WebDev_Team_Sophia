@@ -54,7 +54,7 @@
 }
 h1{
     font-family: "Isometra", serif;
-    color: rgb(134, 13, 189)
+    color: rgb(104, 8, 149)
 }
 
 .topnav a {
@@ -196,4 +196,15 @@ main section[id="news"] {
   padding: 0px;
   margin-top: 110px;
   margin-right: 310px
+}
+@media (min-width: 600px) {
+  .element {grid-area: 1 / span 6;}
+  .topnav {grid-area: 2 / span 1;}
+  .flex-container {grid-area: 2 / span 4;}
+}
+
+@media (min-width: 768px) {
+  .element {grid-area: 1 / span 6;}
+  .topnav {grid-area: 2 / span 1;}
+  .flex-container {grid-area: 2 / span 4;}
 }
